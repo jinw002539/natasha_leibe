@@ -1,0 +1,65 @@
+/* Gerado por gerar-fotos.py — não editar à mão. */
+window.FOTOS = {
+ "mini": true,
+ "arquivos": [
+  "galeria/mio.jpeg",
+  "galeria/nossa-historia/foto_da_carta_origame_que_dei.jpg",
+  "galeria/nossa-historia/foto_de_como_ela_queria_carta.jpg",
+  "galeria/nossa-historia/foto_del_com_oculos.jpg",
+  "galeria/nossa-historia/foto_dela_com_amigas.jpg",
+  "galeria/nossa-historia/foto_dela_com_sono_no_videocall.png",
+  "galeria/nossa-historia/foto_dela_dormindo.jpg",
+  "galeria/nossa-historia/foto_dela_esplendida.jpg",
+  "galeria/nossa-historia/foto_dela_linda.jpg",
+  "galeria/nossa-historia/foto_dela_na_igreja_acolita.jpg",
+  "galeria/nossa-historia/foto_dela_perto_do_mar_na_nossa_saida.jpg",
+  "galeria/nossa-historia/foto_dela_rindo_4_fotosnuma.jpg",
+  "galeria/nossa-historia/foto_dela_seria_belissima.jpg",
+  "galeria/nossa-historia/foto_perna_dela_no_bus.jpg",
+  "galeria/nossa-historia/nossa_foto_maos_dadas.jpg",
+  "galeria/nossa-historia/nossa_foto_maos_dadas_com_outras_coisas.jpg",
+  "galeria/nossa-historia/nossa_foto_minha_mao_na_coxa_dela.jpg",
+  "galeria/nossa-historia/olhos_dela.jpg",
+  "galeria/nossa-historia/paisagem_praia_nossa_saida.jpg",
+  "galeria/nossa-historia/screen_de_um_videoCall.png",
+  "galeria/nossa-historia/Screenshot_de_call_20260715-10:32:47.png",
+  "galeria/nossa-historia/Screenshot_deCall_2026.07.15-11:13:11.png",
+  "mensagens/foto_da_carta_origame_que_dei.jpg",
+  "mensagens/foto_dela_perto_do_mar_na_nossa_saida.jpg",
+  "mensagens/foto_dela_rindo_4_fotosnuma.jpg",
+  "mensagens/screen_de_um_videoCall.png",
+  "mensagens/Screenshot_deCall_2026.07.15-11:13:11.png",
+  "poemas/foto_da_carta_origame_que_dei.jpg",
+  "poemas/nossa_foto_maos_dadas.jpg",
+  "poemas/olhos_dela.jpg",
+  "poemas/paisagem_praia_nossa_saida.jpg"
+ ],
+ "galeria": {
+  "nossa-historia": [
+   "galeria/nossa-historia/foto_da_carta_origame_que_dei.jpg",
+   "galeria/nossa-historia/foto_de_como_ela_queria_carta.jpg",
+   "galeria/nossa-historia/foto_del_com_oculos.jpg",
+   "galeria/nossa-historia/foto_dela_com_amigas.jpg",
+   "galeria/nossa-historia/foto_dela_com_sono_no_videocall.png",
+   "galeria/nossa-historia/foto_dela_dormindo.jpg",
+   "galeria/nossa-historia/foto_dela_esplendida.jpg",
+   "galeria/nossa-historia/foto_dela_linda.jpg",
+   "galeria/nossa-historia/foto_dela_na_igreja_acolita.jpg",
+   "galeria/nossa-historia/foto_dela_perto_do_mar_na_nossa_saida.jpg",
+   "galeria/nossa-historia/foto_dela_rindo_4_fotosnuma.jpg",
+   "galeria/nossa-historia/foto_dela_seria_belissima.jpg",
+   "galeria/nossa-historia/foto_perna_dela_no_bus.jpg",
+   "galeria/nossa-historia/nossa_foto_maos_dadas.jpg",
+   "galeria/nossa-historia/nossa_foto_maos_dadas_com_outras_coisas.jpg",
+   "galeria/nossa-historia/nossa_foto_minha_mao_na_coxa_dela.jpg",
+   "galeria/nossa-historia/olhos_dela.jpg",
+   "galeria/nossa-historia/paisagem_praia_nossa_saida.jpg",
+   "galeria/nossa-historia/screen_de_um_videoCall.png",
+   "galeria/nossa-historia/Screenshot_de_call_20260715-10:32:47.png",
+   "galeria/nossa-historia/Screenshot_deCall_2026.07.15-11:13:11.png"
+  ]
+ },
+ "avulsas": [
+  "galeria/mio.jpeg"
+ ]
+};

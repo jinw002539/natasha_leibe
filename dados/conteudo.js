@@ -9,8 +9,8 @@
  * Dica: começa o nome dos ficheiros por data (2024-05-12_praia.jpg) e ficam por ordem.
  */
 window.CONTEUDO = {
-  titulo: 'Não quero vas',
-  assinatura: 'Só tu.',
+  titulo: 'Não quero vás',
+  assinatura: 'Sempre estarei aqui para te amar.',
   botao: 'Amo-te Natasha',                       // texto do botão da página de entrada
   entrada: 'Ao menos quando te fores embora, terei esse lugar para me lembrar de ti com fotografias e recordações, lembrando que sempre te amei. E vejo que não estas nem ai se não vamos nos ver nunca mais, eu te magoei mesmo, que desgraçado eu sou, mas tudo qur fiz pesa mais que isso?',
   intervalo: 5000,                                // milissegundos entre trocas automáticas
@@ -69,7 +69,7 @@ window.CONTEUDO = {
 
   // Texto simples, ou { texto: '...', imagem: 'mensagens/foto.jpg' }
   mensagens: [
-    { texto: 'Amote-te desejo-te sempre coisas boas, por isso tenho que perceber que tu te vas.', imagem: 'mensagens/foto_dela_rindo_4_fotosnuma.jpg' },
+    { texto: 'Amote-te desejo-te sempre coisas boas, por isso tenho que perceber que tu te vás.', imagem: 'mensagens/foto_dela_rindo_4_fotosnuma.jpg' },
     { texto: 'O teu sorriso bobo e lindo tem o dom de tornar o meu coracão em algo leve.', imagem: 'mensagens/screen_de_um_videoCall.png' },
     { texto: 'Infelizmente nosso primeiro e ultimo passeio juntos ao mar. Essa memoria é uma das mais lindas desse ano ', imagem: 'mensagens/foto_dela_perto_do_mar_na_nossa_saida.jpg' },
     { texto: 'Voce consegue me tornar numa pessoa tão boa mesmo à distância,  conversar contigo sempre será maravilhoso.', imagem: 'mensagens/Screenshot_deCall_2026.07.15-11:13:11.png' },

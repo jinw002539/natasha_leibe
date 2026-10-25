@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#16121d">
+  <title>Para ti</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Figtree:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        colors: { noite: '#16121d', noite2: '#1f1928', ameixa: '#3a2740', linho: '#eee6df', bruma: '#a79cae', ouro: '#cfa98a' },
+        fontFamily: { serif: ['Cormorant', 'Georgia', 'serif'], sans: ['Figtree', 'system-ui', 'sans-serif'] }
+      } }
+    }
+  </script>
+  <link rel="stylesheet" href="assets/css/estilo.css?v=3">
+</head>
+<body data-pagina="entrada" class="bg-noite text-linho font-sans font-light antialiased leading-relaxed overflow-hidden">
+
+<main class="relative h-[100svh] w-full overflow-hidden">
+  <div id="entrada-fundo" class="absolute inset-0"></div>
+  <div class="absolute inset-0 scrim-texto"></div>
+  <div class="veil veil-hero"></div>
+
+  <div class="relative z-20 flex h-full flex-col items-center justify-center px-6 text-center">
+    <h1 data-titulo data-anima class="font-serif font-light leading-none text-[clamp(3.8rem,14vw,9.5rem)]">Para ti</h1>
+    <p data-entrada-texto data-anima class="mt-6 max-w-md text-base md:text-lg opacity-85"></p>
+    <a href="inicio.html" id="entrar" data-anima class="botao-entrada mt-12"><span data-botao>Amo-te Natasha</span></a>
+  </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/js/glightbox.min.js"></script>
+<script src="dados/conteudo.js?v=3"></script>
+<script src="dados/fotos.js?v=3"></script>
+<script src="assets/js/app.js?v=3"></script>
+</body>
+</html>

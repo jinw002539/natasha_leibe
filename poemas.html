@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#16121d">
+  <title>Para ti</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Figtree:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        colors: { noite: '#16121d', noite2: '#1f1928', ameixa: '#3a2740', linho: '#eee6df', bruma: '#a79cae', ouro: '#cfa98a' },
+        fontFamily: { serif: ['Cormorant', 'Georgia', 'serif'], sans: ['Figtree', 'system-ui', 'sans-serif'] }
+      } }
+    }
+  </script>
+  <link rel="stylesheet" href="assets/css/estilo.css?v=3">
+</head>
+<body data-pagina="poemas" class="bg-noite text-linho font-sans font-light antialiased leading-relaxed overflow-hidden">
+
+<header id="topo" class="cabecalho fixed inset-x-0 top-0 z-40 flex items-center justify-between px-5 md:px-12 pb-4">
+  <a href="inicio.html" data-titulo class="font-serif text-2xl tracking-wide">Para ti</a>
+  <nav class="hidden md:block" aria-label="Principal">
+    <ul class="flex gap-10 text-sm tracking-wider">
+      <li><a class="nav-link" href="mensagens.html">Mensagens</a></li>
+      <li><a class="nav-link ativo" href="poemas.html" aria-current="page">Poemas</a></li>
+      <li><a class="nav-link" href="galeria.html">Galeria</a></li>
+    </ul>
+  </nav>
+  <button id="menu-btn" class="md:hidden menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<div id="menu" class="menu md:hidden" aria-hidden="true">
+  <ul>
+    <li><a href="inicio.html">Início</a></li>
+    <li><a href="mensagens.html">Mensagens</a></li>
+    <li><a href="poemas.html" class="ativo">Poemas</a></li>
+    <li><a href="galeria.html">Galeria</a></li>
+  </ul>
+</div>
+
+<main>
+  <section class="relative h-[100svh] w-full overflow-hidden">
+    <div class="swiper swiper-tela swiper-poemas h-full" data-contador="#contador">
+      <div class="swiper-wrapper" id="slides"></div>
+    <button class="seta seta-prev" aria-label="Anterior" type="button">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 2 4 8l6 6"/></svg>
+    </button>
+    <button class="seta seta-next" aria-label="Seguinte" type="button">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 2 6 6-6 6"/></svg>
+    </button>
+    <div class="barra" aria-hidden="true"><i></i></div>
+      <p id="contador" class="contador" aria-live="polite"></p>
+
+      <button id="indice-btn" class="indice-btn" type="button" aria-expanded="false" aria-controls="indice">Índice</button>
+      <div id="indice" class="indice" aria-hidden="true">
+        <ul id="lista-indice"></ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11.1.14/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/js/glightbox.min.js"></script>
+<script src="dados/conteudo.js?v=3"></script>
+<script src="dados/fotos.js?v=3"></script>
+<script src="assets/js/app.js?v=3"></script>
+</body>
+</html>

@@ -128,3 +128,20 @@ img { max-width: 100%; }
   .swiper-slide-active .kenburns { animation: none; }
   * { transition-duration: .01ms !important; }
 }
+
+/* ---------- Página de entrada ---------- */
+body { transition: opacity .55s ease; }
+body.saindo { opacity: 0; }
+.entrada-img { transform: scale(1.02); animation: deriva 16s ease-out forwards; }
+.botao-entrada {
+  position: relative; display: inline-block; padding: 1rem 2.8rem; isolation: isolate; overflow: hidden;
+  border: 1px solid var(--ouro); color: #eee6df;
+  font-family: Cormorant, Georgia, serif; font-size: clamp(1.4rem, 3.4vw, 1.75rem); letter-spacing: .04em;
+  transition: color .5s;
+}
+.botao-entrada::before {
+  content: ''; position: absolute; inset: 0; z-index: -1; background: var(--ouro);
+  transform: translateY(101%); transition: transform .6s cubic-bezier(.2, .7, .2, 1);
+}
+.botao-entrada:hover, .botao-entrada:focus-visible { color: #16121d; }
+.botao-entrada:hover::before, .botao-entrada:focus-visible::before { transform: none; }

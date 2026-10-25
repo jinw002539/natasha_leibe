@@ -73,7 +73,7 @@ window.CONTEUDO = {
     { texto: 'O teu sorriso bobo e lindo tem o dom de tornar o meu coracão em algo leve.', imagem: 'mensagens/screen_de_um_videoCall.png' },
     { texto: 'Infelizmente nosso primeiro e ultimo passeio juntos ao mar. Essa memoria é uma das mais lindas desse ano ', imagem: 'mensagens/foto_dela_perto_do_mar_na_nossa_saida.jpg' },
     { texto: 'Voce consegue me tornar numa pessoa tão boa mesmo à distância,  conversar contigo sempre será maravilhoso.', imagem: 'mensagens/Screenshot_deCall_2026.07.15-11:13:11.png' },
-    { texto: 'Cada carta que deu foi escrito com Amor sincero, sempre foste tu e assim será, cada palavra foi um pingo de amor.', imagem: 'mensagens/foto_da_carta_origame_que_dei.jpg' },
+    { texto: 'Cada carta que dei foi escrito com Amor sincero, sempre foste tu e assim será, cada palavra foi um pingo de amor.', imagem: 'mensagens/foto_da_carta_origame_que_dei.jpg' },
   ],
 
   /*

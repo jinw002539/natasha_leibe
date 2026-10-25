@@ -5,7 +5,8 @@ Totalmente responsivo (telemóvel, tablet, computador).
 
 ## Estrutura
 ```
-index.php                    router (?p=mensagens | poemas | galeria)
+inicio.php                   ficheiro de arranque (?p=mensagens | poemas | galeria)
+index.php                    encaminha para inicio.php
 thumb.php                    serve miniaturas (cache em /cache/thumbs)
 gerar-miniaturas.php         opcional: pré-gera todas as miniaturas (php gerar-miniaturas.php)
 config/conteudo.php          TODO o conteúdo e opções

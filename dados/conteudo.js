@@ -12,7 +12,7 @@ window.CONTEUDO = {
   titulo: 'Para ti',
   assinatura: 'Só tu.',
   botao: 'Amo-te Natasha',                       // texto do botão da página de entrada
-  entrada: 'Um lugar feito de palavras, fotografias e recordações.',
+  entrada: 'Ao menos quando te fores embora, terei esse lugar para me lembrar de ti com fotografias e recordações, lembrando que sempre te amei.',
   intervalo: 5000,                                // milissegundos entre trocas automáticas
   paginacao: 30,                                  // fotos por página dentro de cada álbum
 
@@ -20,8 +20,8 @@ window.CONTEUDO = {
   fundo_automatico: true,
 
   secoes: {
-    mensagens: { titulo: 'Mensagens', descricao: 'Palavras simples e momentos que guardo com carinho.' },
-    poemas:    { titulo: 'Poemas',    descricao: 'Versos de amor com um toque da minha vida em IT.' },
+    mensagens: { titulo: 'Mensagens', descricao: 'Palavras simples e idiotas escritas com carinho.' },
+    poemas:    { titulo: 'Poemas',    descricao: 'Textos de amor com um pouco de Computacao.' },
     galeria:   { titulo: 'Galeria',   descricao: 'Fotografias e lembranças dos nossos momentos.' },
   },
 

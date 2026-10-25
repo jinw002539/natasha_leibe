@@ -9,7 +9,7 @@
  * Dica: começa o nome dos ficheiros por data (2024-05-12_praia.jpg) e ficam por ordem.
  */
 window.CONTEUDO = {
-  titulo: 'Não quero vás',
+  titulo: 'Não quero que vás',
   assinatura: 'Sempre estarei aqui para te amar.',
   botao: 'Amo-te Natasha',                       // texto do botão da página de entrada
   entrada: 'Ao menos quando te fores embora, terei esse lugar para me lembrar de ti com fotografias e recordações, lembrando que sempre te amei. E vejo que não estas nem ai se não vamos nos ver nunca mais, eu te magoei mesmo, que desgraçado eu sou, mas tudo qur fiz pesa mais que isso?',
